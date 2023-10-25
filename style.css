@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,300&display=swap');
+
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+p
+{
+    color: rgb(85, 85, 85);
+}
+
+a, .btn
+{
+    transition: all 300ms ease;
+}
+
+nav, .navLinks
+{
+    display: flex;
+}
+
+nav
+{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+    margin-left: 15px;
+
+}
+
+.navLinks
+{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    max-height: none;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+.product-gallery img {
+    max-width: 500px;
+    max-height: 500px;
+    margin: 10px;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover
+{
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb( 181 181 181);
+}
+
+.logo-image
+{
+    width: 170px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-right: 650px;
+}
+
+#searchInput
+{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    transition: all 300ms ease;
+    outline: none;
+    margin-top: -10px;
+}
+
+#searchInput::placeholder
+{
+    color: rgb(85, 85, 85);
+}
+
+#searchInput:hover, #searchInput:focus
+{
+    border-color: grey;
+}
+
+#searchInput:hover::placeholder, #searchInput:focus::placeholder
+{
+    color: grey;
+}
+
+.navLinks li input
+{
+    margin: 0;
+    padding: 0;
+}
+
+.navLinks li input:focus
+{
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.5);
+    vertical-align: middle;
+}
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+#searchInput2
+{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    transition: all 300ms ease;
+    outline: none;
+    margin-top: -10px;
+    
+}
+
+#searchInput2::placeholder
+{
+    color: rgb(85, 85, 85);
+}
+
+#searchInput2:hover, #searchInput2:focus
+{
+    border-color: grey;
+}
+
+#searchInput2:hover::placeholder, #searchInput2:focus::placeholder
+{
+    color: grey;
+}
+
+.text-area
+{
+    text-align: center;
+    margin-bottom: auto;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.gallery-footer
+{
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-bottom: auto;
+    position: absolute;
+    top: 112%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
