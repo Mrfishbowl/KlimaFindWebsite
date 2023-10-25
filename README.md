@@ -1,1 +1,1 @@
-A simple Website built for a school project
+A simple website built for a school project
